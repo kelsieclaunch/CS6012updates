@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww12540\viewh14960\viewkind1
+\deftab720
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0\partightenfactor0
+
+\f0\fs24 \cf0 Lab 2 Worksheet\
+\
+Answer the following questions by modifying this text file. Add your answer below each question.\
+\
+1. On your computer, how many times per second does the millisecond timer update?\
+	1000 times\
+\
+2. Is it possible to determine how many times per second the nanosecond timer updates?\
+If so, how many? If not, why not?\
+I would suspect that you can get a ballpark number of how many times it should update based on how many nanoseconds are in a second, but that you couldn\'92t determine the exact number because of the hundreds of nanoseconds that pass between the time the change is detected and the time it actually occurs\
+\
+3. Judging by experiment 4, how long does it appear to take to compute System.nanoTime()? 84 nanoseconds\
+\
+4. Estimate the precision of your answer above (+/- how many nanoseconds?)\
++- 40 nanoseconds, because of the printline. Some show 125, some show 41, but most show 83 or 84 nanoseconds.\
+\
+5. How long does it take to compute the square root of the numbers 1 through 10?\
+59.0 nanoseconds\
+\
+\
+6. Estimate the precision of your answer above (+/- how many nanoseconds?)\
++/- 13 nanoseconds\
+\
+\
+7. If you repeat the square root test 100x as many times, does the precision improve?\
+	Not if you\'92re repeating the exact same code without any improvements.\
+\
+\
+8. How could you improve the results (get a more accurate estimate of elapsed time)?\
+	You could repeat the square root test as stated in question 7 and store the results in an array to find the average.\
+}
